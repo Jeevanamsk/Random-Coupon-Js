@@ -1,0 +1,170 @@
+/*{
+    
+    background-color: black;
+}*/
+#header{
+    display: flex;
+    justify-content: center;
+
+}
+#header a{
+    margin-top: 50px;
+    margin-left: 900px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 20;
+    color:blueviolet; 
+
+}
+h1{
+    padding-top: 40px;
+    background: dark;
+    color:plum;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+.img{
+margin-top: 20px;
+
+}
+
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    align-items: center;
+    padding-top: 200px;
+    gap: 10px;
+    
+}
+.form a{
+border-radius: 20px;
+}
+.form a:hover{
+    color: black;
+    opacity: 20px;
+}
+
+
+/* Registration form*/
+h2{
+    padding-top: 40px;
+    background: dark;
+    color:blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+
+#form{
+    margin-top: 100px;
+    border-radius: 40px;
+    background-color: lightblue;
+    width:700px;
+    height:550px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    align-items: center;
+   
+    
+}
+
+#form #lbl{
+    padding-top: 10px;
+    font-family: 'Inter';
+    font-size: 23px;
+}
+#form #name,#email,#username{
+    border-radius: 7px;
+    border-style: none;
+    width:400px;
+    height:45px;
+}
+#submit{             /* signup and login buttons*/
+    border-radius: 0px;
+    border-style: none;
+    background-color:black;
+    color: white;
+    font-family: 'Inter';
+    font-size: 22px;
+    width:150px;
+    height:40px;
+}
+
+.dice {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .display {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 30%;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+ 
+  /* random string*/
+  #Createcoupon{
+width: 700px;
+height:100px;
+margin-top:100px;
+margin-left:530px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30px;
+font-weight: bold;
+color: green;
+background-color: burlywood;
+display: flex;
+justify-content: center;
+align-items: center;
+float: left;
+  }
+
+  /* Dice */
+  #dice{
+    width: 600px;
+    height:400px;
+    margin-top:100px;
+    margin-left:600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+      }
+
+
+      /*user data*/
+      #userdata{
+        padding-top:5px;
+        padding-left: 100px;
+        margin-top: 100px;
+        margin-left:300px;
+        width: 600px;
+        height:400px;
+        color: green;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        background-color: burlywood;
+        justify-content: center;
+        align-items: center;
+        float: center;
+      }

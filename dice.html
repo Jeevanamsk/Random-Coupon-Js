@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>LuckyCoupon</title>
+</head>
+<body>
+    <nav class="container-fluid bg-dark" id="header"style="height:150px">
+        <img src="coupon.png" alt="" width="100px" height="80px">
+        <h1><b>Lucky Coupon</b></h1>
+        <a href="index.html"><label for="">Home</label></a>
+    </nav>
+    
+  
+        <div class ="container" id="dice">
+        <p id="count">Rolling count: 0</p><br><br>
+        <img src="dicebtn.jpeg" id="roll-dice" width="100px" height="100px"><br><br>
+        <p id="sum">Sum: 0</p>
+        </div>
+       
+    
+    <script>
+           let count = 0;
+            let sum = 0;
+            let chance =0;
+    
+
+                let button = document.getElementById("roll-dice");
+            button.addEventListener("click", function luckydice() {
+
+            count++;
+            document.getElementById("count").textContent = "Rolling count: " + count;
+
+            let randomNum = Math.floor(Math.random() * 6) + 1;
+            sum += randomNum;
+            document.getElementById("sum").textContent = "Sum: " + sum;
+            console.log("Rolled " + randomNum);
+            if (count === 3) {
+                button.disabled=true;
+                if (sum >= 10) {
+                    window.location.href = "Randomstring.html";
+                } else {
+                alert("Try again! Score more than 10");
+                }
+            }
+            }); 
+
+            
+                
+            
+            
+            
+    </script> 
+    
+</body>
+</html>
